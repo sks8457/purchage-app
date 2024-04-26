@@ -22,10 +22,10 @@ const Navbar = () => {
   };
 
   const handleWishlistClick = () => {
-    setWishlistClicked(!wishlistClicked); // Toggle wishlistClicked state
+    setWishlistClicked(!wishlistClicked); 
   };
 
-  // Reset wishlistClicked state when navigating to other pages
+  
   useState(() => {
     setWishlistClicked(false);
   }, [location.pathname]);

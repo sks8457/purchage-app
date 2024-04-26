@@ -17,7 +17,6 @@ import {
   filterByColor,
   filterBySize,
 } from "../../features/slices/productsSlice";
-import Navbar from "../Navbar/Navbar";
 
 const FilteredProducts = () => {
   const products = useSelector((state) => state.products.filteredProducts);
